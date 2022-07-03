@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="" />
+
+  <!-- <link 
+  rel="icon" 
+  href="./img/favicon-small.png"
+ />
+
+ <link 
+ rel="apple-touch-icon" 
+ href="./img/apple-touch-icon.png"
+ />
+
+ <link 
+ rel="manifest"
+ href="manifest.webmanifest" 
+ /> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/general.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+  <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js">
+  </script>
+
+  <script type="module" src="/javascript/script.js">
+  </script>
+
+  <title>Rim Nam Thai Cafe</title>
+  <!--Author Shawna (Miss) Staff-->
+</head>
+
+<body>
+  <header class="header">
+
+    <a href="#">
+      <img class="logo" alt="Rim Nam Thai logo" src="assets/logo.jpg" />
+    </a>
+
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li>
+          <a href="#menu" class="main-nav-link">Menu</a>
+        </li>
+        <li>
+          <a href="#reviews" class="main-nav-link">Reviews</a>
+        </li>
+        <li>
+          <a href="#about" class="main-nav-link">About</a>
+        </li>
+        <li>
+          <a href="#cta" class="main-nav-link nav-cta">Order</a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <button class="btn-mobile-nav">
+      <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+      <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+    </button>
+
+  </header>
+
+
+  <section class="section-hero">
+    <div class="hero">
+      <div class="hero-text-box">
+        <h1 class="heading-primary">
+          Rim Nam Thai Cafe
+        </h1>
+        <p class="hero-description">
+          Serving High Quality Cuisine · Everyday Is Your Exotic Meal <br />
+          Asian Fusion · Thai · Vegetarian
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section-menu" id="menu">
+    <span class="subheading">MENU</span>
+
+    <!--soups- menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">SOUPS</h2>
+      <div class="soup-prices">
+        <h3 class="heading-tertiary">small: &nbsp; $7.99</h3>
+        <h3 class="heading-tertiary">medium: &nbsp; $7.99</h3>
+        <h3 class="heading-tertiary">large: &nbsp; $7.99</h3>
+      </div>
+    </div>
+    <div class="container soups grid grid--3-cols margin-bottom-md">
+      <!--dynamically generated soups-->
+    </div>
+
+    <!--salads- menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">SALADS</h2>
+    </div>
+    <div class="container salads grid grid--3-cols margin-bottom-md">
+      <!--dynamically generated salads-->
+    </div>
+
+    <!--appetizers menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">APPETIZERS</h2>
+    </div>
+    <div class="container appetizers grid grid--4-cols margin-bottom-md">
+      <!--dynamically generated appetizers-->
+    </div>
+
+    <!--noodles menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">NOODLES</h2>
+      <div class="noodle-options">
+        <h3 class="heading-tertiary noodle-heading-tertiary">Vegetarian options available</h3>
+        <h3 class="heading-tertiary noodle-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary noodle-heading-tertiary">Add shrimp for only $2</h3>
+      </div>
+    </div>
+    <div class="container noodles grid grid--3-cols margin-bottom-md">
+      <!--dynamically generated noodles-->
+    </div>
+
+    <!--fried rice menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">FRIED RICE</h2>
+      <div class="rice-options">
+        <h3 class="heading-tertiary rice-heading-tertiary">Vegetarian options available</h3>
+        <h3 class="heading-tertiary rice-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary rice-heading-tertiary">Add shrimp for only $2</h3>
+      </div>
+    </div>
+    <div class="container fried-rice grid grid--4-cols margin-bottom-md">
+      <!--dynamically generated fried rice-->
+    </div>
+
+    <!--entrees menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">A La Carte</h2>
+      <div class="a-la-cart-options">
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">Choice of beef, chicken, pork, or vegetables</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">Add shrimp for only $2</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">Served with steamed rice</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary a-la-cart-heading-tertiary">Vegetarian options available</h3>
+      </div>
+    </div>
+    <div class="container entrees grid grid--4-cols margin-bottom-md">
+      <!--dynamically generated entrees-->
+    </div>
+
+    <!--desserts menu-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading">DESSERTS</h2>
+    </div>
+    <div class="dessert-options">
+      <h3 class="heading-tertiary dessert-heading-tertiary">Happy Vanilla</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">Happy Chocolate</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">Fun Strawberry</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary dessert-heading-tertiary">Love Sherbert</h3>
+    </div>
+    <div class="container desserts grid grid--3-cols margin-bottom-md">
+      <!--dynamically generated desserts-->
+    </div>
+  </section>
+
+  <section class="section-extras">
+    <!--beverages-->
+    <div class="center-text">
+      <h2 class="heading-secondary section-menu-heading extras-heading--secondary">BEVERAGES & EXTRAS</h2>
+    </div>
+    <div class="beverages-options">
+      <h3 class="heading-tertiary beverages-heading-tertiary">Coke</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Sprite</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Lemonade</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Raspberry Iced Tea</h3>
+    </div>
+    <div class="beverages-options">
+      <h3 class="heading-tertiary beverages-heading-tertiary">Rainbow Iced Tea</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Boba Iced Tea</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Organic Iced Tea</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary beverages-heading-tertiary">Organic Hot Tea</h3>
+    </div>
+
+    <!--extras menu-->
+    <div class="extras-options">
+      <h3 class="heading-tertiary extras-heading-tertiary">Beef</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Chicken
+        <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">Pork</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">vegetables</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">Shrimp</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+        <h3 class="heading-tertiary extras-heading-tertiary">&#36;3</h3>
+    </div>
+    <div class="extras-options">
+      <h3 class="heading-tertiary extras-heading-tertiary">Tofu</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Vegan</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Vegetarian</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Optons available</h3>
+    </div>
+    <div class="extras-options">
+      <h3 class="heading-tertiary extras-heading-tertiary">Steamed rice</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Steamed vegetables</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">&#36;3</h3>
+    </div>
+    <div class="extras-options">
+      <h3 class="heading-tertiary extras-heading-tertiary">Fried egg</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">Omelette</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">·</h3>
+      <h3 class="heading-tertiary extras-heading-tertiary">&#36;3</h3>
+    </div>
+  </section>
+
+
+  <section class="section-reviews" id="reviews">
+    <h2 class="section-reviews-heading heading-secondary">REVIEWS</h2>
+  </section>
+
+
+  <footer class="footer">
+    jsfghfkjjkdf
+  </footer>
+</body>
+
+</html>

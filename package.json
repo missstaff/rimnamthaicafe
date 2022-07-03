@@ -1,0 +1,16 @@
+{
+  "name": "rimnamthaicafe",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Shawna (Miss)",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.5"
+  }
+}
