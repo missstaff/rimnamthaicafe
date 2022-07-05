@@ -12,7 +12,11 @@
   .heading-primary {
     font-size: 6.2rem;
   }
+  .gallery{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
 
 /********************************/
 /* BELOW 1200px (landscape tablets) */
@@ -32,7 +36,7 @@
   }
 
   .heading-tertiary {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
 
   .header {
@@ -47,6 +51,10 @@
     gap: 3.2rem;
   }
 
+  .testimonials-container{
+    padding: 9.6rem 3.2rem;
+  }
+
 }
 
 /********************************/
@@ -58,6 +66,7 @@
     font-size: 50%;
   }
 
+  .grid--footer,
   .grid--4-cols,
   .grid--5-cols {
     grid-template-columns: repeat(3, 1fr);
@@ -76,6 +85,13 @@
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+  }
+
+  .section-testimonials{
+    grid-template-columns: 1fr;
+  }
+  .gallery{
+    grid-template-columns: repeat(6, 1fr);
   }
 
   .main-nav {
@@ -125,6 +141,12 @@
   .main-nav-link:visited {
     font-size: 3rem;
   }
+
+  .grid--footer {
+    margin-left: 2.2rem;
+    margin-right: 0;
+    grid-template-columns: 3fr 2fr;
+  }
 }
 
 /********************************/
@@ -132,6 +154,7 @@
 /******************************/
 @media(max-width: 44em) {
 
+  .grid--footer,
   .grid--3-cols,
   .grid--4-cols,
   .grid--5-cols {
@@ -152,6 +175,7 @@
     row-gap: 4.8rem;
   }
 
+  .grid--footer,
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols,
@@ -166,5 +190,15 @@
   .hero {
     padding: 0 3.2rem;
   }
+
+  .testimonials{
+    grid-template-columns: 1fr;
+  }
+  .gallery{
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem
+  }
+
+
 
 }

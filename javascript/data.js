@@ -3,7 +3,7 @@ export const data = {
     {
       id: 1,
       title: "Crab Wanton",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Deep fried wanton",
@@ -13,7 +13,7 @@ export const data = {
     {
       id: 2,
       title: "Pot Stickers",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Savory pot stickers",
@@ -23,7 +23,7 @@ export const data = {
     {
       id: 3,
       title: "Egg Rolls",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Vegetarian",
       tag: "vegetarian",
       description: "Veggie egg rolls",
@@ -33,7 +33,7 @@ export const data = {
     {
       id: 4,
       title: "Veggie Tempura",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Vegetarian",
       tag: "vegetarian",
       description: "Deep fried veggies",
@@ -43,7 +43,7 @@ export const data = {
     {
       id: 5,
       title: "Chicken Wings",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Fried chicken wings",
@@ -53,7 +53,7 @@ export const data = {
     {
       id: 6,
       title: "Fried Shrimp",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Deep fried prawns",
@@ -63,7 +63,7 @@ export const data = {
     {
       id: 7,
       title: "Sweet Potatoes",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Sweet Potato fries",
@@ -73,7 +73,7 @@ export const data = {
     {
       id: 8,
       title: "French Fries",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Classic french fries",
@@ -86,7 +86,7 @@ export const data = {
     {
       id: 1,
       title: "Happy Ice Cream Cup",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Ice Cream Dessert",
@@ -96,7 +96,7 @@ export const data = {
     {
       id: 2,
       title: "Happy Banana Split",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-3.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Scrumptious treat",
@@ -106,7 +106,7 @@ export const data = {
     {
       id: 3,
       title: "Happy Waffle Ice Cream Cone",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Waffle cone",
@@ -116,7 +116,7 @@ export const data = {
     {
       id: 4,
       title: "Happy Waffle Ice Cream Cone",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Chocolate syrup",
@@ -126,7 +126,7 @@ export const data = {
     {
       id: 5,
       title: "Happy Waffle ",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Chocolate syrup",
@@ -136,7 +136,7 @@ export const data = {
     {
       id: 5,
       title: "Happy Birthday ",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Birthday dessert",
@@ -149,7 +149,7 @@ export const data = {
     {
       id: 1,
       title: "Chow Mein",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Stir fried egg noodle",
@@ -160,7 +160,7 @@ export const data = {
     {
       id: 2,
       title: "Pad Thai",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Classic thai rice noodle stir fry",
@@ -171,7 +171,7 @@ export const data = {
     {
       id: 3,
       title: "Druken Noodle",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Spicy stir-fry rice noodles",
@@ -185,17 +185,17 @@ export const data = {
     {
       id: 1,
       title: "Fresh Broccoli",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
-      description: "In Oyster sauce",
+      description: "In oyster sauce",
       price: 12.99,
       // rating: 4.5,
     },
     {
       id: 2,
       title: "Spicy Basil",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Sweet and spicy",
@@ -205,7 +205,7 @@ export const data = {
     {
       id: 3,
       title: "Mixed Vegetales",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "In a garlic sauce",
@@ -215,7 +215,7 @@ export const data = {
     {
       id: 4,
       title: "Golden Chicken",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Crispy fried",
@@ -225,7 +225,7 @@ export const data = {
     {
       id: 5,
       title: "Orange Chicken",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Orange juice marinated",
@@ -235,7 +235,7 @@ export const data = {
     {
       id: 6,
       title: "Cashew Nuts",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Stir fried to perfection",
@@ -245,7 +245,7 @@ export const data = {
     {
       id: 7,
       title: "Garlic Pepper",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "Stir fried to perfection",
@@ -255,7 +255,7 @@ export const data = {
     {
       id: 8,
       title: "Deep Fried Sole",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Asian Fusion",
       tag: "asianFusion",
       description: "With sweet, spicy sauce",
@@ -268,7 +268,7 @@ export const data = {
     {
       id: 1,
       title: "House Salad",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/veggies.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Green salad with dressing",
@@ -278,7 +278,7 @@ export const data = {
     {
       id: 2,
       title: "Spicy Beef Salad",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/veggies.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Spicy lime dressing",
@@ -288,7 +288,7 @@ export const data = {
     {
       id: 3,
       title: "Spicy Shrimp Salad",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/veggies.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Spicy lime dressing",
@@ -301,7 +301,7 @@ export const data = {
     {
       id: 1,
       title: "Rim Nam Fried Rice",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Your choice of meats",
@@ -311,7 +311,7 @@ export const data = {
     {
       id: 2,
       title: "Rim Nam Combination Rice",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Chicken, shrimp, eggs",
@@ -321,7 +321,7 @@ export const data = {
     {
       id: 3,
       title: "Rim Nam Spicy Basil Rice",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Your choice of meats",
@@ -331,7 +331,7 @@ export const data = {
     {
       id: 4,
       title: "Rim Nam Pineapple Rice",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Your choice of meats",
@@ -344,7 +344,7 @@ export const data = {
     {
       id: 1,
       title: "Tom Yum Soup",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Spicy and sour soup",
@@ -354,7 +354,7 @@ export const data = {
     {
       id: 2,
       title: "Tom Kha Soup",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Spicy coconut soup",
@@ -364,7 +364,7 @@ export const data = {
     {
       id: 3,
       title: "Vegetable Soup",
-      image: "./assets/meal-1.jpg",
+      image: "./assets/menu/meal-1.jpg",
       tagTitle: "Thai",
       tag: "thai",
       description: "Fresh cut veggies",

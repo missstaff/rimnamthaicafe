@@ -1,9 +1,9 @@
 import { data } from "./data.js";
 
-// automatically keeps copy right year up to date //
-// const copyRightYearEl = document.querySelector(".year");
-// const curYear = new Date().getFullYear();
-// copyRightYearEl.textContent = curYear;
+//automatically keeps copy right year up to date //
+const copyRightYearEl = document.querySelector(".year");
+const curYear = new Date().getFullYear();
+copyRightYearEl.textContent = curYear;
 
 ////////////////////////////////////////////////////////////
 // Make mobile navigatoion work //
@@ -18,7 +18,6 @@ btnNavEl.addEventListener("click", function () {
 const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach((link) => {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
     const href = link.getAttribute("href");
 
     //Scroll back to top
